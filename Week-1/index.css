@@ -4,18 +4,20 @@ body {
 .nav-container {
   background-color: darkgray;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
   width: fit-content;
   position: fixed;
   top: 0;
   left: 0;
   overflow-x: hidden;
-  padding: 10px;
+  padding: 2px;
   height: 79%;
-  margin: 10 px;
+  margin: 2 px;
 }
-.nav-container div {
+.nav-container i {
   padding: 5px;
-  margin: 60px 0;
+  margin: 15px 0;
 }
 .header-container {
   height: 280px;
@@ -32,7 +34,20 @@ body {
 .grid-container > div {
   padding: 30px;
 }
-
+.image-margin {
+  margin-left: 70px;
+}
+.play-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute;
+  top: 200;
+  left: 300;
+}
+.play-container i {
+  margin: 5px;
+}
 .text-size {
   font-size: 10px;
   padding: 2px;
@@ -45,7 +60,7 @@ body {
   grid-template-columns: auto auto auto auto;
   padding: 20px;
   position: relative;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 .table-item {
   padding: 10px;
@@ -80,7 +95,7 @@ body {
   grid-template-columns: auto auto auto auto auto;
 }
 
-.button-container div {
+.button-container i {
   display: inline-block;
   padding: 0 40px;
   margin: 0 10px;
