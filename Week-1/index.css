@@ -1,0 +1,104 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+.nav-container {
+  background-color: darkgray;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding: 2px;
+  height: 79%;
+  margin: 2 px;
+}
+.nav-container i {
+  padding: 5px;
+  margin: 15px 0;
+}
+.header-container {
+  height: 280px;
+  background-color: darkslategray;
+  padding: 20px;
+  position: relative;
+}
+.grid-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+  position: relative;
+}
+.grid-container > div {
+  padding: 30px;
+}
+.image-margin {
+  margin-left: 70px;
+}
+.play-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute;
+  top: 200;
+  left: 300;
+}
+.play-container i {
+  margin: 5px;
+}
+.text-size {
+  font-size: 10px;
+  padding: 2px;
+}
+.grid-container + div {
+  padding: 50px;
+}
+.table-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 20px;
+  position: relative;
+  margin-left: 40px;
+}
+.table-item {
+  padding: 10px;
+  font-size: 20px;
+  text-align: left;
+}
+.table-container > div :nth-child(odd) {
+  background-color: darkgrey;
+}
+
+.link-color > div {
+  color: blue;
+  border: 2px inset black;
+  font-size: 15px;
+  margin-bottom: 2px;
+}
+.grid-container-footer {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+  height: 100px;
+}
+.grid-container-footer > div {
+  padding: 0 10px;
+}
+.footer-container {
+  height: 80px;
+  background-color: cornflowerblue;
+  padding: 10px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto auto auto auto;
+}
+.button{
+  
+}
+.button-container i {
+  display: inline-block;
+  padding: 0 40px;
+  margin: 0 10px;
+}
